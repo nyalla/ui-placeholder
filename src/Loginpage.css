@@ -1,0 +1,86 @@
+.below-content {
+  font-style: italic;
+  padding-left: 35%;
+  padding-top: 20%;
+  font-style: italic;
+}
+
+.left-content {
+  padding: 10px 40px 20px 40px;
+  /* color: #3bb8ed; */
+  background-image: linear-gradient(to right, #cfe6f2, #cfe6f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+
+.h100 {
+  height: 100%;
+}
+.image-style {
+  width: 220px;
+  height: 200px;
+  border-radius: 50% 50% 45% 32%;
+  object-fit: cover;
+  opacity: 0.5;
+  transition: opacity 1s ease;
+}
+.column1 {
+  background-color: #152b1e;
+}
+.column2-bg {
+  background: radial-gradient(circle at 38% 55%, white 0%, #0da8e0 50%);
+}
+.column2 {
+  padding: 1% 1% 5% 20%;
+}
+.addressstyle {
+  font-size: 16px;
+  padding: 15px;
+}
+.login-input {
+  .ant-input {
+    width: 300px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    border-color: transparent;
+  }
+}
+.button-style {
+  margin-left: 80px;
+  margin-top: 20px;
+  color: black;
+  font-weight: bold;
+  border: none;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+}
+.button-style:hover {
+  /* Override the styles applied on hover */
+  background-color: inherit;
+  color: inherit;
+  /* Add any other styles you want to remove or reset on hover */
+}
+.ant-form-item-control-input {
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  outline: none;
+}
+
+.typography-style {
+  padding: 15px 0px 50px 15px;
+  font-weight: bold;
+}
+
+.formfiledsstyle {
+  border: none;
+  box-shadow: none;
+  /* background: #b7f1f7; */
+  outline: none;
+  max-width: fit-content;
+  background: radial-gradient(circle at 30% 55%, white 0%, #7accf0 50%);
+}

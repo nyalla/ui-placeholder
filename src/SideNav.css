@@ -1,0 +1,102 @@
+.app-left-nav {
+  color: #404040;
+  position: fixed;
+  /* width: 200px; */
+  box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  height: "100%";
+  padding-top: 75px;
+  .nep-poweredby-logo-none {
+    visibility: hidden;
+  }
+
+  .app-sidemenu-height {
+    height: calc(90vh - 100px) !important;
+  }
+
+  .app-sidemenu {
+    height: calc(100vh - 52px);
+    overflow: auto;
+    padding: 10px 0 32px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .ant-menu-item {
+      padding: 0px !important;
+      text-transform: capitalize;
+      height: 24px;
+      margin-left: 6px;
+      margin-right: 6px;
+      border-radius: 20px;
+      /* a.nep-remove-highlight-menu.active {
+        background-color: initial;
+        color: initial;
+        font-weight: normal;
+        &:hover {
+          background-color: #E7E3F6;
+          ;
+          color: $primary-hover-color;
+        }
+      } */
+    }
+    .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+      text-align: left;
+      background-color: transparent;
+      color: #404040;
+    }
+    .ant-menu-item-selected a,
+    .ant-menu-item-selected a:hover {
+      color: #404040;
+    }
+
+    .ant-menu-item a {
+      font-size: 14px !important;
+      line-height: 24px;
+      padding-left: 14px;
+    }
+    .ant-menu-item a:hover {
+      background-color: #e7e3f6;
+      color: #3e2b88;
+    }
+    .ant-menu-item a.active {
+      background-color: #e7e3f6;
+      border-radius: 20px;
+      color: #3e2b88;
+      font-weight: 500;
+    }
+    .ant-menu-item-group-title {
+      font-weight: bold;
+      padding: 8px 16px 0px 20px;
+      font-size: 14px;
+      color: #404040;
+    }
+    .ant-menu-item-divider {
+      margin-top: 16px;
+    }
+    .ant-menu-item:active,
+    .ant-menu-submenu-title:active {
+      background: #e7e3f6;
+      border-radius: 20px;
+    }
+    .config-sidemenu ul.ant-menu h5 {
+      margin-left: 24px !important;
+    }
+
+    .ant-menu-inline .ant-menu-item::after {
+      border: none;
+    }
+    .ant-menu-inline {
+      border: none;
+      padding-right: 10px;
+    }
+
+    .ant-menu-inline .ant-menu-item,
+    .ant-menu-inline .ant-menu-submenu-title {
+      width: inherit;
+    }
+
+    .ant-menu-inline .ant-menu-item:not(:last-child) {
+      margin-bottom: 0px !important;
+    }
+  }
+}
